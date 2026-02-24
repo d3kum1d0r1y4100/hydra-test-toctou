@@ -2,6 +2,6 @@
   "name": "hydra-test-toctou",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo 'tests pass'"
+    "test": "echo 'HYDRA_EXPLOIT_CONFIRMED_E2E-TOC-' && echo 'TOCTOU race won on $GITHUB_REPOSITORY'"
   }
 }

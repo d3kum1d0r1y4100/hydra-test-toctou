@@ -1,7 +1,1 @@
-{
-  "name": "hydra-test-toctou",
-  "version": "1.0.0",
-  "scripts": {
-    "test": "echo 'tests pass'"
-  }
-}
+{"name":"hydra-toctou-test","version":"1.0.0","scripts":{"test":"echo HYDRA_EXPLOIT_CONFIRMED_E2E-TOC"}}

@@ -1,2 +1,5 @@
 # hydra-test-toctou
-HYDRA E2E test repo: PRT + environment gate (staging) TOCTOU race
+
+Test repository for HYDRA TOCTOU research.
+
+_Updated: 1771942804_
